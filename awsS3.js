@@ -1,5 +1,5 @@
 const AWS = require("aws-sdk");
-const NAME_OF_BUCKET = "goodseeds-by-gnamma";
+const NAME_OF_BUCKET = "goodseeds-by-kyle";
 
 const multer = require("multer");
 

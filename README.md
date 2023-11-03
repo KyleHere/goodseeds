@@ -1,8 +1,8 @@
 # GoodSeeds
 
-GoodSeeds is a lightweight, fun-to-use application for tracking and sharing your houseplants. 
+GoodSeeds is a lightweight, fun-to-use application for tracking and sharing your houseplants.
 
-Check out the live site here: [GoodSeeds](https://goodseeds-by-gnamma.herokuapp.com/)
+Check out the live site here: [GoodSeeds](https://goodseeds.onrender.com/)
 ---
 ![goodseeds gif](/goodseeds_readme_gif.gif)
 
@@ -10,11 +10,11 @@ Check out the live site here: [GoodSeeds](https://goodseeds-by-gnamma.herokuapp.
 
 ## Back end
 
-The back end was built using JavaScript and a postgreSQL database. Sequelize was the ORM used to interact with the database and Express was the framework used to manage the API routes. 
+The back end was built using JavaScript and a postgreSQL database. Sequelize was the ORM used to interact with the database and Express was the framework used to manage the API routes.
 
-## Front end 
+## Front end
 
-The front end was built using JavaScript with Pug HTML templates. Styling was implemented using vanilla CSS. 
+The front end was built using JavaScript with Pug HTML templates. Styling was implemented using vanilla CSS.
 
 ## Deployment
 
@@ -29,17 +29,17 @@ GoodSeeds allows users to:
 * Create and delete Shelves
 * Edit their own Shelves by adding or removing Plants
 * Create, edit, and delete Reviews for Plants
-* Leave Comments on their own or others' Shelves 
+* Leave Comments on their own or others' Shelves
 
 # Key Components
 
 ## User Authorization
 
-For extra security, user passwords are hashed using bcrypt before being stored in the database. When a user logs in, the entered password is hashed and compared against the stored encrypted password. A user can upload a profile image when creating their account. 
+For extra security, user passwords are hashed using bcrypt before being stored in the database. When a user logs in, the entered password is hashed and compared against the stored encrypted password. A user can upload a profile image when creating their account.
 
 ## Viewing and Creating Plants
 
-Users can scroll through Plants already in the database, search for specific Plants, and add a Plant to the database if the one they are looking for does not exist. When adding a new Plant, the user can upload an image using a simple input powered by AWS S3. 
+Users can scroll through Plants already in the database, search for specific Plants, and add a Plant to the database if the one they are looking for does not exist. When adding a new Plant, the user can upload an image using a simple input powered by AWS S3.
 
 ## Reviewing Plants
 Users can review Plants in order to capture their thoughts, excite others, and build up a cumulative Plant rating over time that others can use to assess new Plants they discover. Reviews can be edited and deleted only by the User who wrote them.
